@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli('localhost', 'root', '', 'own');
+$conn = new mysqli('viaduct.proxy.rlwy.net', 'root', 'IFLrEjePGAQPDdAIBDKzFMkgaMWKJjcq', 'railway', 43705);
 if ($conn->connect_error){
     echo 'connection error';
     exit();
